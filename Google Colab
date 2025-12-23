@@ -4,7 +4,9 @@ from IPython.display import display, HTML, clear_output
 
 # --- SETTINGS ---
 PAUSE_TIME_MS = 3000
-WEBAPP_URL = "https://script.google.com/macros/s/AKfycbwXV6PuCAO5mEqN61yEq-g2wsVDzYTaTqS-vug8Mlv9rzcMLKtXBxCNpPecG6AcUljT/exec"
+
+# !!!!!!!!!!!!!!!!!         VERY IMPORTANT - PASTE YOUR OWN URL         !!!!!!!!!!!!!!!!!!!!!
+WEBAPP_URL = "https://script.google.com/macros/s/.../exec"
 
 # --- STEP 1: DATA HANDLING ---
 def load_all_scores():
